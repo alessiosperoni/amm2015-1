@@ -18,11 +18,11 @@ class Database {
     
     public function connectDb(){
         $mysqli = new mysqli();
-        //$mysqli->connect("localhost","virdisSamuele",
-        //"formica1015", "amm15_virdisSamuele");
+        $mysqli->connect("localhost","virdisSamuele",
+        "formica1015", "amm15_virdisSamuele");
         
-        $mysqli->connect("localhost","root",
-        "davide", "palestra");
+        /* $mysqli->connect("localhost","root",
+        "davide", "palestra"); */
         if($mysqli->errno != 0){
             return null;
         }else{
