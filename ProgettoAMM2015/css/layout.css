@@ -1,0 +1,371 @@
+body{
+    background-color: #DADADA;
+    font: 13px/20px "Open Sans", Arial, sans-serif;
+}
+
+#pagina{
+    background-color: #f7f7f7;
+    border: 2px solid;
+    padding-left: 30px;
+    padding-right: 50px;
+    
+}
+
+.valido {
+    color: #006400;
+}
+
+span {
+    color: #FF0000;
+}
+
+p.messaggio {
+    background-color: #B22222;
+    border: 3px solid #000000; 
+    position: relative;
+    margin-left: 20%;
+    margin-right: 10%;
+    min-height: 30px;
+    width: 750px;
+    color:  #f7f7f7;
+    font-size: 17px;
+    text-align: center;
+    padding: 20px;
+}
+
+#header {
+    background-color: #B22222;
+    color: #f7f7f7;
+
+}
+
+#footer p{
+    display: block; 
+    margin: auto;
+    font-style: italic;
+    width: 900px;
+}
+
+#footer p.contatti {
+    text-align: center;
+}
+
+#menu ul li a:link{
+    color: white;
+}
+
+ul li {
+    
+    list-style-type: circle;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #B22222;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+li a:link{
+    text-decoration: underline;
+    color: black;
+}
+
+li a:visited{
+    text-decoration: underline;
+    color: #4B0082;
+}
+
+li a:hover{
+    font-weight: bold;
+
+}
+    
+input[type=submit], button{
+    color: #F8F8FF;
+    background-color: #B22222;
+    height: 4em;
+    font-weight: bold;
+    border-radius: 4em;
+    border: 3px solid  #F8F8FF;
+    min-width: 80px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+input {
+    border: 3px solid #B22222;
+}
+
+input[type=submit]:hover, button:hover{
+    cursor: pointer;
+}
+
+.input-form{
+    line-height: 5em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.input-form input[type=submit], .input-form button{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+
+.save input[type=submit], .save button{
+    display: inline-block;
+}
+
+
+.save{
+    text-align: center;
+}
+
+.scadenza {
+    background-image: url('../immagini/scadenza.png');
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 100px;
+    text-align: center;
+}
+
+
+table {
+    border: 3px solid #F8F8FF;
+    border-collapse: collapse;
+    line-height: 1em;
+    width: 100%;
+    font-size: 15px;
+}
+
+th, td {
+    border: 1px solid #F8F8FF;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th{
+    background-color: #B22222;
+    color: white;
+    font-weight: bold;
+}
+
+.corsi{
+    width: 50%;
+}
+
+tr, td{
+    background-color: #e8ebee;
+}
+
+tr.alt-row, tr.alt-row td{
+    background-color: #bbc2ce;
+}
+
+#sidebar1 li {
+    list-style: none;
+}
+
+#sidebar1 ul, #sidebar2 ul{
+    padding-left: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+    #pagina {
+        width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+
+    #sidebar1 {
+        float: left;
+        width: 20%;
+       
+
+    }
+
+    #sidebar2 {
+        float: right;
+        width: 20%;
+      
+    }
+
+    #content {
+        
+        border: 3px solid #B22222;
+        display: block;
+        
+        margin: auto;
+        margin: 10px;
+        
+        position: relative;
+        background-color: #DADADA;
+        
+        margin-left: 20%;
+        margin-right: 10%;
+        
+        padding-bottom: 20px;
+        padding-left: 0px;
+        
+        min-height: 400px;
+        width: 500px;
+    }
+    
+    #content h2 {
+        border: 3px solid;
+        display: block;
+       
+        margin: auto;
+        margin: 30px;
+        
+        text-align: center;
+        
+        position: relative;
+        background-color: #B22222;
+        color: white;
+        
+    }
+    
+    #content b, #content p {
+        
+       padding-left: 15px;   
+        
+    }
+
+    .social{
+        width: 100%;
+    }
+
+    .social ul{
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+
+    .social ul li{
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        overflow: hidden;
+
+    }
+
+    .social ul li a:link{
+        color: transparent;
+    }
+
+    #facebook{
+        background-image: url('../immagini/facebook.gif');
+        background-repeat: no-repeat;
+    }
+
+    #twitter{
+        background-image: url('../immagini/twitter.gif');
+        background-repeat: no-repeat;
+    }
+    
+    select.menu {
+        display: none;
+    }
+    
+    #header{
+        clear: both;
+        height: 300px;
+    }
+
+    #header, #footer{
+        position: relative;
+        padding-left: 30px;
+        padding-right: 30px;
+        width: 1000px;
+        left: -20px;
+    }
+    
+    #logo{
+        position: absolute;
+    }
+    
+    #menu{
+        position: relative;
+        float: right;
+        display: inline-block;
+    }
+    
+    #menu ul{
+        position: relative;
+        display: inline-block;
+        list-style: none;
+    }
+
+    #menu ul li{
+        position: relative;
+        display: inline-block;
+        color: white;
+    }
+    
+    #menu a:link, #menu a:visited{
+        color: white;
+    }
+
+    .social p{
+        margin: 10px;
+        float: left;
+    }
+
+
+    div#logo h1 {
+        background-image: url('../immagini/Logo.jpg');
+        background-repeat: no-repeat;
+        background-position: center left;
+        height: 250px;
+        width: 500px;
+        vertical-align: middle;
+        padding-left: 620px;
+        margin-top: 20px;
+        line-height: 100px;
+        color: #ffffff;
+        display: block;
+    }
+    
+    .contenuto li{
+        line-height: 1em;
+        border: 3px solid #B22222;
+        display: block;
+        
+        width: 400px;
+        height: 30px;
+        
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 0px;
+        
+        
+        position: relative;
+        background-color: #f7f7f7;
+    }
+
+    .contenuto li a{
+        line-height: 1em; 
+        color: black;
+    }
+    
+    .contenuto li a p {
+        text-align: center;
+    }
+}
