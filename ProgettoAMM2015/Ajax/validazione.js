@@ -17,7 +17,7 @@
                             var info = "La username deve contenere da 6 a 12 caratteri alfanumerici"; 
                             break;
                         case "password":
-                            var info = "La password deve contenere da 8 a 12 caratteri almeno un numero, una lettera maiuscola e una minuscola"; 
+                            var info = "La password deve contenere da 8 a 12 caratteri, almeno un numero, una lettera maiuscola e una minuscola"; 
                             break;
                     }
                     $("#info").html(info);
